@@ -24,6 +24,7 @@ import { RealtimeModule } from './realtime/realtime.module';
 import { CouponsModule } from './coupons/coupons.module';
 import { MigrationsModule } from './migrations/migrations.module';
 import { BookingModule } from './booking/booking.module';
+import { OrganizerModule } from './organizer/organizer.module';
 import { WebhooksModule } from './webhooks/webhooks.module';
 import { WaitlistModule } from './waitlist/waitlist.module';
 
@@ -61,6 +62,7 @@ import { WaitlistModule } from './waitlist/waitlist.module';
     CouponsModule,
     MigrationsModule,
     BookingModule,
+    OrganizerModule,
     WebhooksModule,
     WaitlistModule,
   ],
